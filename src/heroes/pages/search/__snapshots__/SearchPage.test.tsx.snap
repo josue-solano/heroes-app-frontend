@@ -1,0 +1,80 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SearchPage > should render SearchPage with default values 1`] = `
+<div>
+  <div
+    data-testid="custom-jumbotron"
+  />
+  <nav
+    aria-label="breadcrumb"
+    class="my-5"
+    data-slot="breadcrumb"
+  >
+    <ol
+      class="flex flex-wrap items-center gap-1.5 text-sm wrap-break-word text-muted-foreground"
+      data-slot="breadcrumb-list"
+    >
+      <li
+        class="inline-flex items-center gap-1"
+        data-slot="breadcrumb-item"
+      >
+        <span
+          aria-current="page"
+          aria-disabled="true"
+          class="font-normal text-foreground"
+          data-slot="breadcrumb-page"
+          role="link"
+        >
+          Home
+        </span>
+      </li>
+      <li
+        class="inline-flex items-center gap-1"
+        data-slot="breadcrumb-item"
+      >
+        <a
+          class="transition-colors hover:text-foreground"
+          data-discover="true"
+          data-slot="breadcrumb-link"
+          href="/search"
+        >
+          Búsqueda de superhéroes
+        </a>
+      </li>
+      <li
+        aria-hidden="true"
+        class="[&>svg]:size-3.5"
+        data-slot="breadcrumb-separator"
+        role="presentation"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-slash"
+          fill="none"
+          height="24"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 2 2 22"
+          />
+        </svg>
+      </li>
+    </ol>
+  </nav>
+  <div>
+    Cargando...
+  </div>
+  <div
+    data-testid="search-controls"
+  />
+  <div
+    data-testid="hero-grid"
+  />
+</div>
+`;
